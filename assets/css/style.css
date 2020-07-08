@@ -1,0 +1,161 @@
+html {
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent
+}
+
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #292b2c;
+  background-color: #fff
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	margin-bottom: .5rem;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+}
+
+.h2, h2 {
+	font-size: 2rem;
+}
+
+a, a:hover {
+	transition: all 0.2s;
+	text-decoration: none;
+}
+
+/** Misc **/
+.img-fluid {
+	max-width: 100%;
+	height: 100%;
+}
+
+.object-fit-cover {
+	object-fit: cover;
+	object-position: center;
+}
+
+.pt-5 {
+	padding-top: 10rem;
+}
+
+/** Section **/
+.section-title h2 {
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 27px;
+}
+
+.section-title span {
+    border-bottom: 1px solid rgba(0,0,0,.44);
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: -1px;
+}
+
+/** Card **/
+.card {
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+}
+
+.card-block {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-img {
+	width: 100%;
+	height: 260px;
+}
+
+.card h2.card-title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: .75rem;
+}
+
+.card h2.card-title a {
+	color: rgba(0,0,0,.8);
+}
+
+.card h4.card-text {
+    color: rgba(0,0,0,.44);
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.card .col-footer {
+	font-size: 12px;
+	margin-top: 30px;
+}
+
+.author-thumb {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right: 13px;
+	border-radius: 100%;
+}
+
+span.author-meta {
+    display: inline-block;
+}
+
+.author-meta {
+    flex: 1 1 auto;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+}
+
+span.post-read-more {
+	align-items: center;
+	display: inline-block;
+	float: right;
+	margin-top: 8px;
+}
+
+.dot::after {
+    content: "·";
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+span.post-name a, span.post-read-more a:hover {
+    color: rgba(0,0,0,.8);
+}
+
+span.post-date, span.post-category {
+    color: rgba(0,0,0,.44);
+}
+
+span.post-name, span.post-date, span.author-meta {
+    display: inline-block;
+}
