@@ -5,7 +5,7 @@ html {
 
 body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.5;
   color: #292b2c;
@@ -27,6 +27,36 @@ body {
 a, a:hover {
 	transition: all 0.2s;
 	text-decoration: none;
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #292b2c;
+}
+
+.svg-icon circle {
+  stroke: #292b2c;
+  stroke-width: 1;
+}
+
+.text-lg-right {
+	text-align: right;
+}
+
+@media (max-width: 480px) {
+	.text-lg-right {
+		text-align: center;
+	}
 }
 
 /** Misc **/
@@ -158,4 +188,64 @@ span.post-date, span.post-category {
 
 span.post-name, span.post-date, span.author-meta {
     display: inline-block;
+}
+
+/** Pagination **/
+.pagination span.navigation {
+    display: block;
+    font-size: 1.5rem;
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+    color: #292929;
+    border-top: 1px solid #ddd;
+    border-radius: 0;
+}
+
+.pagination span.navigation li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 2px;
+	padding: 0 20px;
+	border-radius: 2px;
+	font-size: 14px;
+	position: relative;
+	color: #999;
+}
+
+.pagination span.navigation li a.active {
+	color: #111;
+	font-weight: 700;
+}
+
+li.disabled,
+li.disabled a {
+	cursor: not-allowed;
+}
+
+.pagination span.navigation a,
+.pagination span.navigation a svg {
+	color: #999;
+	fill: #999;
+}
+
+.pagination span.navigation li a.active::after { 
+	content: "";
+	background-color: #111;
+	height: 1px;
+	position: absolute;
+	top: -17px;
+	left: 0;
+	right: 0;
+}
+
+/** Footer **/
+footer {
+	border-top: 1px solid rgba(0,0,0,.05) !important;
+	padding-top: 15px;
+	padding-bottom: 12px;
+	font-size: 1.3rem;
+	color: rgba(0,0,0,.44);
+	margin-top: 30px;
 }
