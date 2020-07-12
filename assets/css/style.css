@@ -24,8 +24,21 @@ body {
 	font-size: 2rem;
 }
 
+.m-0 {
+	margin: 0;
+}
+
+.p-0 {
+	padding: 0;
+}
+
+a {
+	color: #ec407a;
+}
+
 a, a:hover {
 	transition: all 0.2s;
+	color: #b40p04e;
 	text-decoration: none;
 }
 
@@ -249,3 +262,33 @@ footer {
 	color: rgba(0,0,0,.44);
 	margin-top: 30px;
 }
+
+.list-non-style {
+	list-style: none;
+	display: inline-flex;
+}
+
+.list-non-style li {
+	margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  footer {
+  	text-align: center;
+  }
+
+  .list-non-style {
+    display: block;
+  }
+
+  .list-non-style li {
+  	margin-right: 0;
+  }
+
+  .pagination span.navigation li {
+  	padding: 10px;
+  }
+}
+
