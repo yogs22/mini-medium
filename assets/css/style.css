@@ -72,7 +72,8 @@ SVG Icons - svgicons.sparkk.fr
 	}
 }
 
-/** Misc **/
+/* ----- MISC ----- */
+
 .img-fluid {
 	max-width: 100%;
 	height: 100%;
@@ -84,10 +85,125 @@ SVG Icons - svgicons.sparkk.fr
 }
 
 .pt-5 {
-	padding-top: 10rem;
+	padding-top: 15rem;
 }
 
-/** Section **/
+.p-2 {
+	padding: 2.3rem;
+}
+
+.p-1 {
+	padding: 1.6rem;
+}
+
+.px-2 {
+	padding-left: 2.3rem;
+	padding-right: 2.3rem;
+}
+
+.m-1 {
+	margin: 1.6rem;
+}
+
+.mt-2 {
+	margin-top: 2.3rem;
+}
+
+.mt-1 {
+	margin-top: 1.6rem;
+}
+
+.mr-1 {
+	margin-right: 1rem;
+}
+
+.mr-2 {
+	margin-right: 2rem;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.fixed-top {
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+.float-right {
+	float: right;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	padding: .8rem 1.4rem;
+	font-size: 1rem;
+	line-height: 1.25;
+	color: #464a4c;
+	background-color: #fff;
+	background-image: none;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: .25rem;
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+
+
+/* ----- Header ----- */
+
+.nav-wrapper {
+	background: #fff;
+	box-shadow: 0 2px 2px -2px rgba(0,0,0,.15);
+	width: 100%;
+}
+
+.nav-brand {
+	text-align: center;
+	font-size: 3rem;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-link {
+	padding-right: 1.3rem;
+	padding-left: 1.3rem;
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	font-weight: 600;
+	letter-spacing: .8px;
+}
+
+.search-wrapper .form-control {
+	font-size: 1.4rem;
+	border-radius: 30px;
+	overflow: hidden;
+	border: 1px solid rgba(0,0,0,0.04);
+	width: auto;
+	vertical-align: middle;
+}
+
+.search-wrapper .search-icon {
+	margin-left: -40px;
+	margin-top: 3px;
+	cursor: pointer;
+	z-index: 10;
+	position: relative;
+	padding-right: 2rem;
+}
+
+.nav-socmed-link:hover {
+	opacity: .8;
+}
+
+/* ----- Section ----- */
+
 .section-title h2 {
     border-bottom: 1px solid rgba(0,0,0,.15);
     margin-bottom: 25px;
@@ -103,7 +219,8 @@ SVG Icons - svgicons.sparkk.fr
     margin-bottom: -1px;
 }
 
-/** Card **/
+/* ----- Card ----- */
+
 .card {
 	width: 100%;
 	margin-bottom: 20px;
@@ -159,6 +276,10 @@ SVG Icons - svgicons.sparkk.fr
 	margin-top: 30px;
 }
 
+.card-title a:hover {
+	opacity: .8;
+}
+
 .author-thumb {
 	width: 40px;
 	height: 40px;
@@ -203,7 +324,8 @@ span.post-name, span.post-date, span.author-meta {
     display: inline-block;
 }
 
-/** Pagination **/
+/* ----- Pagination ----- */
+
 .pagination span.navigation {
     display: block;
     font-size: 1.5rem;
@@ -253,7 +375,9 @@ li.disabled a {
 	right: 0;
 }
 
-/** Footer **/
+
+/* ----- Footer ----- */
+
 footer {
 	border-top: 1px solid rgba(0,0,0,.05) !important;
 	padding-top: 15px;
