@@ -101,13 +101,13 @@
 				<div class="col-lg-2"></div>
 				<div class="col-lg-8">
 					<div class="single-profile">
-						<div class="row">
-							<div class="col-lg-2">
+						<div class="row d-flex align-items-center">
+							<div class="col-lg-2 col-md-2 col-sm-2">
 								<a href="author.html"><img class="author-thumb author-thumb-large" src="https://www.gravatar.com/avatar/" alt="John Doe"></a>
 							</div>
-							<div class="col-lg-10">
+							<div class="col-lg-10 col-md-10 col-sm-10">
 								<a href="author.html" class="m-0 text-md">John Doe</a>
-								<p class="text-mutted my-0-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								<p class="text-mutted my-0-5 d-xs-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua.</p>
 								<p class="text-mutted m-0">
 									<span>22 July 2020 </span>
@@ -191,8 +191,8 @@
 	<section class="featured">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-6 col-12">
-					<div class="card mb-0">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+					<div class="card">
 						<a href="single.html">
 							<div class="card-img">
 								<img class="img-fluid object-fit-cover" src="assets/img/1.jpg" alt="">						
@@ -217,8 +217,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 col-12">
-					<div class="card mb-0">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+					<div class="card">
 						<a href="single.html">
 							<div class="card-img">
 								<img class="img-fluid object-fit-cover" src="assets/img/4.jpg" alt="">						
@@ -243,8 +243,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 col-12">
-					<div class="card mb-0">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+					<div class="card">
 						<a href="single.html">
 							<div class="card-img">
 								<img class="img-fluid object-fit-cover" src="assets/img/5.jpg" alt="">						
@@ -269,6 +269,28 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-lg-offset-2 col-lg-8 mt-5">
+					<form method="POST">
+						<div class="title mb-2">
+							<h3>Tinggalkan Komentar</h3>								
+						</div>
+						<div class="form-group">
+							<textarea id="comment" class="form-control" placeholder="Komentar disini...." rows="8"></textarea>
+						</div>
+						<div class="form-group">
+							<input type="text" id="comment" class="form-control" placeholder="Nama *">
+						</div>
+						<div class="form-group">
+							<input type="email" id="comment" class="form-control" placeholder="Email *">
+						</div>
+						<div class="form-group">
+							<input type="url" id="comment" class="form-control" placeholder="Website">
+						</div>
+						<div class="form-group">
+							<button type="submit" class="btn-comment">Kirim Komentar</button>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -286,7 +308,7 @@
 						<li><a href="">Disclaimer</a></li>
 					</ul>
 				</div>
-				<div class="col-lg-6 text-lg-right">
+				<div class="col-lg-6 text-lg-right mt-xs-2">
 					<span>Copyright 2020 &copy; Mini Medium</span>
 				</div>
 			</div>

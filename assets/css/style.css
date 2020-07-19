@@ -120,6 +120,10 @@ SVG Icons - svgicons.sparkk.fr
 	margin-bottom: 0 !important;
 }
 
+.mb-2 {
+	margin-bottom: 2rem;
+}
+
 .mb-4 {
 	margin-bottom: 4.6rem;
 }
@@ -163,6 +167,10 @@ SVG Icons - svgicons.sparkk.fr
 	margin-top: 1.6rem;
 }
 
+.mt-5 {
+	margin-top: 5.4rem;
+}
+
 .mr-1 {
 	margin-right: 1rem;
 }
@@ -194,6 +202,14 @@ SVG Icons - svgicons.sparkk.fr
     font-weight: 400;
 }
 
+.d-flex {
+	display: flex;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
 .fixed-top {
 	position: fixed;
 	top: 0;
@@ -208,7 +224,7 @@ SVG Icons - svgicons.sparkk.fr
 	display: block;
 	width: 100%;
 	padding: .8rem 1.4rem;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	line-height: 1.25;
 	color: #464a4c;
 	background-color: #fff;
@@ -216,7 +232,7 @@ SVG Icons - svgicons.sparkk.fr
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	border: 1px solid rgba(0,0,0,.15);
-	border-radius: .25rem;
+	border-radius: .50rem;
 	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
 	transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
 	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
@@ -539,6 +555,11 @@ li.disabled a {
 	margin: 0 0 1.5rem 0;
 }
 
+.single-content .content figcaption {
+	text-align: center;
+	background-color: #fff;
+}
+
 .tags {
 	margin: 0;
 	padding: 0;
@@ -584,6 +605,30 @@ li.disabled a {
 	border-right: 1px solid rgba(0,0,0,.125);
 }
 
+.form-group {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.btn-comment {
+	border-radius: .50rem;
+	background-color: #ec407a;
+	color: #fff;
+	padding: 10px 16px;
+	outline: none;
+	border: none;
+	transition: .4s ease-in-out;
+	-webkit-transition: .4s ease-in-out;
+	-moz-transition: .4s ease-in-out;
+	-ms-transition: .4s ease-in-out;
+	-o-transition: .4s ease-in-out;
+}
+
+.btn-comment:hover {
+	background-color: #FF1493;
+}
+
 /* ----- Featued ----- */
 
 .featured {
@@ -618,6 +663,16 @@ footer {
   	font-size: 2.3rem;
   }
 
+  .next-prev .col {
+  	display: block;
+	width: 100%;
+  }
+
+  .next-prev .border-right {
+  	border-bottom: 1px solid rgba(0,0,0,.125);
+  	border-right: none;
+  }
+
   .pt-5 {
   	padding-top: 9rem;
   }
@@ -644,6 +699,10 @@ footer {
 
   .d-xs-block {
   	display: block;
+  }
+
+  .mt-xs-2 {
+  	margin-top: 2rem;
   }
 }
 
