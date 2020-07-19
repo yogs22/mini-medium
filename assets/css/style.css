@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap")
+
 html {
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent
@@ -15,21 +17,9 @@ body {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
 	margin-bottom: .5rem;
 	font-family: inherit;
-	font-weight: 500;
+	font-weight: 700;
 	line-height: 1.1;
 	color: inherit;
-}
-
-.h2, h2 {
-	font-size: 2rem;
-}
-
-.m-0 {
-	margin: 0;
-}
-
-.p-0 {
-	padding: 0;
 }
 
 a {
@@ -104,6 +94,14 @@ SVG Icons - svgicons.sparkk.fr
 	padding-top: 1.6rem;
 }
 
+.pl-1 {
+	padding-left: 1.6rem;
+}
+
+.pr-1 {
+	padding-right: 1.6rem;
+}
+
 .px-2 {
 	padding-left: 2.3rem;
 	padding-right: 2.3rem;
@@ -112,6 +110,45 @@ SVG Icons - svgicons.sparkk.fr
 .py-1 {
 	padding-top: 1.3rem;
 	padding-bottom: 1.3rem;
+}
+
+.m-0 {
+	margin: 0;
+}
+
+.mb-0 {
+	margin-bottom: 0 !important;
+}
+
+.mb-4 {
+	margin-bottom: 4.6rem;
+}
+
+.mt-0 {
+	margin-top: 0 !important;
+}
+
+.p-0 {
+	padding: 0;
+}
+
+.m-0 {
+	margin: 0 !important;
+}
+
+.my-0-5 {
+	margin-top: 0.7rem;
+	margin-bottom: 0.7rem;
+}
+
+.my-1 {
+	margin-top: 1.3rem;
+	margin-bottom: 1.3rem;
+}
+
+.my-2 {
+	margin-top: 2.9rem;
+	margin-bottom: 2.9rem;
 }
 
 .m-1 {
@@ -144,6 +181,17 @@ SVG Icons - svgicons.sparkk.fr
 
 .text-right {
 	text-align: right !important;
+}
+
+.text-md {
+	font-size: 1.7rem;
+}
+
+.text-mutted {
+	color: rgba(0,0,0,.44);
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 400;
 }
 
 .fixed-top {
@@ -465,12 +513,90 @@ li.disabled a {
 }
 
 
+/* ----- Single ----- */
+
+.author-thumb-large {
+	width: 80px;
+	height: 80px;
+}
+
+.single-content-title .title {
+	font-weight: bold;
+}
+
+.single-content .content {
+    font-family: Merriweather;
+    font-size: 2.1rem;
+    line-height: 1.6;
+    color: rgba(0,0,0,.8);
+}
+
+.single-content .content blockquote {
+	border-left: 4px solid #ec407a;
+	padding: 0 20px;
+	font-style: italic;
+	color: rgba(0,0,0,.5);
+	margin: 0 0 1.5rem 0;
+}
+
+.tags {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.tags li {
+	display: inline-block;
+	font-size: 1.5rem;
+	margin-right: 4px;
+}
+
+.tags li:hover a {
+	background: rgba(0,0,0,.07);
+}
+
+.tags li a {
+	background: rgba(0,0,0,.05);
+	color: rgba(0,0,0,.6);
+	border-radius: 3px;
+	padding: 5px 10px;
+}
+
+.single-content .featured-content {
+	background: #f999
+}
+
+.next-prev {
+	display: table;
+	border-top: 1px solid rgba(0,0,0,.125);
+	border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.next-prev .col {
+	width: 50%;
+	display: table-cell;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	vertical-align: middle;
+}
+
+.next-prev .border-right {
+	border-right: 1px solid rgba(0,0,0,.125);
+}
+
+/* ----- Featued ----- */
+
+.featured {
+	background-color: #fafafa;
+	padding: 60px 0;
+}
+
 /* ----- Footer ----- */
 
 footer {
 	border-top: 1px solid rgba(0,0,0,.05) !important;
-	padding-top: 15px;
-	padding-bottom: 12px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	font-size: 1.3rem;
 	color: rgba(0,0,0,.44);
 	margin-top: 30px;
