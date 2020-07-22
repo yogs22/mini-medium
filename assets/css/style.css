@@ -220,6 +220,10 @@ SVG Icons - svgicons.sparkk.fr
 	float: right;
 }
 
+.d-inline {
+	display: inline-flex;
+}
+
 .form-control {
 	display: block;
 	width: 100%;
@@ -629,11 +633,41 @@ li.disabled a {
 	background-color: #FF1493;
 }
 
+.sticky-share {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.share {
+	display: block;
+	text-align: center;
+	z-index: 1;
+}
+
+.share, .share a, .share path {
+	color: rgba(0,0,0,.44);
+	fill: rgba(0,0,0,.44);
+}
+
+.share-icon {
+	width: 1.9em;
+}
+
+.sep {
+	height: 1px;
+	width: 31px;
+	background: #999;
+	margin: auto;
+	margin-bottom: 1.2rem;
+}
+
 /* ----- Featued ----- */
 
 .featured {
 	background-color: #fafafa;
 	padding: 60px 0;
+	z-index: 10;
 }
 
 /* ----- Footer ----- */
@@ -649,11 +683,11 @@ footer {
 
 .list-non-style {
 	list-style: none;
-	display: inline-flex;
+	padding-left: 0;
 }
 
-.list-non-style li {
-	margin-right: 10px;
+footer .list-non-style li {
+	margin-right: 3px;
 }
 
 
