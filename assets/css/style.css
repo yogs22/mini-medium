@@ -259,6 +259,10 @@ SVG Icons - svgicons.sparkk.fr
 	padding: 0;
 }
 
+.nav-top {
+	transition: ease-in 0.3s;
+}
+
 .nav-item {
 	display: inline;
 }
@@ -636,7 +640,7 @@ li.disabled a {
 .sticky-share {
 	position: -webkit-sticky;
 	position: sticky;
-	top: 0;
+	top: 20vh;
 }
 
 .share {
