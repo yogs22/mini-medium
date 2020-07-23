@@ -41,7 +41,13 @@ SVG Icons - svgicons.sparkk.fr
   height: 1em;
 }
 
+.svg-icon-large {
+	width: 2em;
+	height: 2em;
+}
+
 .svg-icon path,
+.svg-icon-large path,
 .svg-icon polygon,
 .svg-icon rect {
   fill: #292b2c;
@@ -54,12 +60,6 @@ SVG Icons - svgicons.sparkk.fr
 
 .text-lg-right {
 	text-align: right;
-}
-
-@media (max-width: 480px) {
-	.text-lg-right {
-		text-align: center;
-	}
 }
 
 /* ----- MISC ----- */
@@ -596,6 +596,7 @@ li.disabled a {
 }
 
 .next-prev {
+	width: 100%;
 	display: table;
 	border-top: 1px solid rgba(0,0,0,.125);
 	border-bottom: 1px solid rgba(0,0,0,.125);
@@ -640,7 +641,7 @@ li.disabled a {
 .sticky-share {
 	position: -webkit-sticky;
 	position: sticky;
-	top: 20vh;
+	top: 15vh;
 }
 
 .share {
@@ -711,8 +712,22 @@ footer .list-non-style li {
   	border-right: none;
   }
 
+  .next-prev {
+  	text-align: center !important; 
+  }
+
   .pt-5 {
   	padding-top: 9rem;
+  }
+
+  .author-thumb-large {
+  	float: none;
+  	margin: 0 auto;
+  	display: block;
+  }
+
+  .btn-block-sm {
+  	width: 100%;
   }
 
   footer {
@@ -742,5 +757,9 @@ footer .list-non-style li {
   .mt-xs-2 {
   	margin-top: 2rem;
   }
+
+  .text-lg-right {
+		text-align: center;
+	}
 }
 
