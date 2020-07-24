@@ -380,6 +380,10 @@ SVG Icons - svgicons.sparkk.fr
     margin-bottom: -1px;
 }
 
+.all-posts {
+	padding-bottom: 4rem;
+}
+
 /* ----- Card ----- */
 
 .card {
@@ -689,6 +693,7 @@ footer {
 .list-non-style {
 	list-style: none;
 	padding-left: 0;
+	margin: 0;
 }
 
 footer .list-non-style li {
