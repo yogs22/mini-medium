@@ -388,6 +388,134 @@ SVG Icons - svgicons.sparkk.fr
 	padding-bottom: 4rem;
 }
 
+/* --- Sidebar --- */
+
+.sidebar {
+	position: fixed;
+	height: 100vh;
+	background: white;
+	width: 300px;
+	margin-left: -300px;
+	z-index: 1010;
+	top: 0;
+	left: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.sidebar ul li a {
+	color: #19191a;
+	font-size: 15px;
+}
+
+.sidebar ul li {
+	padding: 15px 20px;
+	border-bottom: 1px solid #eee;
+}
+
+.sidebar-logo {
+	padding: 5px 20px;
+	border-bottom: 1px solid #eee;
+}
+
+.sidebar-logo img {
+	width: 60%;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar-logo h3 {
+	margin: 10px;
+	color: #ff0048;
+	font-size: 23px;
+	text-align: center;
+	display: inline-block;
+}
+
+.sidebar-logo .ion-arrow-left-c {
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.sidebar ul li form {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sidebar ul li form .form-control {
+	width: 100%;
+	padding: 11px 14px;
+	border: 1px solid #d6ddcc;
+	border-radius: 4px;
+}
+
+.sidebar .btn-comment.on-search {
+	border-radius: 0 .50rem .50rem 0;
+	margin-left: -6px;
+	padding: 6px 10px
+}
+
+.sidebar .sub-sidebar-link {
+	padding: 7px
+}
+
+.sidebar .sub-sidebar-link a {
+	font-size: 14px;
+}
+
+.sidebar .close {
+	width: 1.2em;
+	height: 1.8em;
+	cursor: pointer;
+}
+
+.sidebar-overlay {
+	background: rgba(0, 0, 0, 0.73);
+	width: 100%;
+	height: 100vh;
+	z-index: 1009;
+	position: fixed;
+	display: none;
+	top: 0;
+}
+
+.collapsible {
+	cursor: pointer;
+}
+
+.active, .collapsible:hover {
+	background-color: #555;
+}
+
+.collapsible:after {
+	content: '\002B';
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+.collapsible-content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f9f9f9;
+}
+
+.collapsible-active:after {
+  content: "\2212";
+}
+
 /* ----- Card ----- */
 
 .card {
@@ -763,6 +891,7 @@ footer .list-non-style li {
 
   .pagination span.navigation li {
   	padding: 10px;
+  	margin: 0 1px;
   }
 
   .d-xs-none {
