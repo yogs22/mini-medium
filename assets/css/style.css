@@ -493,10 +493,6 @@ SVG Icons - svgicons.sparkk.fr
 	cursor: pointer;
 }
 
-.active, .collapsible:hover {
-	background-color: #555;
-}
-
 .collapsible:after {
 	content: '\002B';
 	font-weight: bold;
