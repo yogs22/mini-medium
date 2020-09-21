@@ -11,7 +11,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #292b2c;
-  background-color: #fff
+  background-color: #fff;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -343,7 +343,7 @@ SVG Icons - svgicons.sparkk.fr
 }
 
 .dropdown:hover .dropdown-content {
-	display: block;	
+	display: block;
 }
 
 .arrow {
@@ -512,6 +512,10 @@ SVG Icons - svgicons.sparkk.fr
   content: "\2212";
 }
 
+.collapsible-content ul {
+  list-style: none;
+}
+
 /* ----- Card ----- */
 
 .card {
@@ -577,7 +581,7 @@ SVG Icons - svgicons.sparkk.fr
 
 .card-footer {
 	position: absolute;
-	width: 100%;	
+	width: 100%;
 	bottom: 0;
 	left: 0;
 	padding: 20px 15px;
@@ -668,7 +672,7 @@ li.disabled a {
 	fill: #999;
 }
 
-.pagination span.navigation li a.active::after { 
+.pagination span.navigation li a.active::after {
 	content: "";
 	background-color: #111;
 	height: 1px;
@@ -856,7 +860,7 @@ footer .list-non-style li {
   }
 
   .next-prev {
-  	text-align: center !important; 
+  	text-align: center !important;
   }
 
   .pt-5 {
@@ -906,4 +910,3 @@ footer .list-non-style li {
 		text-align: center;
 	}
 }
-
