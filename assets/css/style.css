@@ -696,7 +696,7 @@ li.disabled a {
 
 .single-content .content {
     font-family: Merriweather;
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     line-height: 1.6;
     color: rgba(0,0,0,.8);
 }
@@ -819,6 +819,104 @@ li.disabled a {
 	background-color: #fafafa;
 	padding: 60px 0;
 	z-index: 10;
+}
+
+/* ----- Comment ----- */
+
+.comment-form input[type=text],
+.comment-form textarea {
+    display: block;
+    width: 100%;
+    padding: .8rem 1.4rem;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    color: #464a4c;
+    background-color: #fff;
+    background-image: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .50rem;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+
+.comment-form input[type=submit] {
+    border-radius: .50rem;
+	background-color: #ec407a;
+	color: #fff;
+	padding: 10px 16px;
+	outline: none;
+	border: none;
+	transition: .4s ease-in-out;
+	-webkit-transition: .4s ease-in-out;
+	-moz-transition: .4s ease-in-out;
+	-ms-transition: .4s ease-in-out;
+	-o-transition: .4s ease-in-out;
+}
+
+.comment-form input[type=submit]:hover {
+	background-color: #FF1493;
+}
+
+.commentlist {
+    list-style: none;
+    padding-left: 0;
+}
+
+.commentlist li.comment.depth-1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.commentlist li.comment, .comment-form textarea, .comment-form input {
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    border: 1px solid rgba(0,0,0,.09);
+    border-radius: 3px;
+    padding: 20px;
+    position: relative;
+}
+
+.vcard {
+    text-transform: capitalize;
+}
+
+.comment .vcard img {
+    border-radius: 50%;
+}
+
+.comment .fn {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.comment .says {
+    font-size: 1.4rem;
+}
+
+.comment .comment-body {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+.comment .comment-body a {
+    color: #ec407a;
+}
+
+.comment .commentmetadata a {
+    font-size: 1.4rem;
+    color: rgba(0,0,0,.54);
+}
+
+.comment .comment-body p {
+    font-family: Merriweather;
+    color: rgba(0,0,0,.84);
 }
 
 /* ----- Footer ----- */
